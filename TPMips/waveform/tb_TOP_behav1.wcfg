@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_TOP_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_TOP" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4961512700fs"></ZoomStartTime>
+      <ZoomEndTime time="4961832901fs"></ZoomEndTime>
+      <Cursor1Time time="4961663700fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="143"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="110" />
+   <wave_markers>
+      <marker time="949082500" label="" />
+      <marker time="737933200" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_TOP/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/clk_2" type="logic">
+      <obj_property name="ElementShortName">clk_2</obj_property>
+      <obj_property name="ObjectShortName">clk_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/rst_wz" type="logic">
+      <obj_property name="ElementShortName">rst_wz</obj_property>
+      <obj_property name="ObjectShortName">rst_wz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/tx_data_out" type="logic">
+      <obj_property name="ElementShortName">tx_data_out</obj_property>
+      <obj_property name="ObjectShortName">tx_data_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/data_sending" type="logic">
+      <obj_property name="ElementShortName">data_sending</obj_property>
+      <obj_property name="ObjectShortName">data_sending</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/tx_start" type="logic">
+      <obj_property name="ElementShortName">tx_start</obj_property>
+      <obj_property name="ObjectShortName">tx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/ack_debug" type="logic">
+      <obj_property name="ElementShortName">ack_debug</obj_property>
+      <obj_property name="ObjectShortName">ack_debug</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/end_send_data" type="logic">
+      <obj_property name="ElementShortName">end_send_data</obj_property>
+      <obj_property name="ObjectShortName">end_send_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/memory" type="array">
+      <obj_property name="ElementShortName">memory[0:92][31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:92][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/data_receive" type="array">
+      <obj_property name="ElementShortName">data_receive[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_receive[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/num_reg" type="array">
+      <obj_property name="ElementShortName">num_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">num_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/data_ready" type="logic">
+      <obj_property name="ElementShortName">data_ready</obj_property>
+      <obj_property name="ObjectShortName">data_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/tx_done" type="logic">
+      <obj_property name="ElementShortName">tx_done</obj_property>
+      <obj_property name="ObjectShortName">tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/registers" type="array">
+      <obj_property name="ElementShortName">registers[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_ID_EX/rs_o" type="array">
+      <obj_property name="ElementShortName">rs_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_o[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_ID_EX/rt_o" type="array">
+      <obj_property name="ElementShortName">rt_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt_o[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_ID_EX/rd_o" type="array">
+      <obj_property name="ElementShortName">rd_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_o[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/stage_memory/memory_data/RAM" type="array">
+      <obj_property name="ElementShortName">RAM[127:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[127:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/stage_memory/controller_mem/data_read_i" type="array">
+      <obj_property name="ElementShortName">data_read_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_read_i[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/stage_memory/controller_mem/data_write_i" type="array">
+      <obj_property name="ElementShortName">data_write_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_write_i[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/stage_memory/controller_mem/data_write_o" type="array">
+      <obj_property name="ElementShortName">data_write_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_write_o[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/stage_memory/controller_mem/data_read_o" type="array">
+      <obj_property name="ElementShortName">data_read_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_read_o[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruccion_fetch/program_counter/clock_i" type="logic">
+      <obj_property name="ElementShortName">clock_i</obj_property>
+      <obj_property name="ObjectShortName">clock_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruccion_fetch/program_counter/next_addr_i" type="array">
+      <obj_property name="ElementShortName">next_addr_i[6:0]</obj_property>
+      <obj_property name="ObjectShortName">next_addr_i[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruccion_fetch/program_counter/next_addr_o" type="array">
+      <obj_property name="ElementShortName">next_addr_o[6:0]</obj_property>
+      <obj_property name="ObjectShortName">next_addr_o[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruccion_fetch/mem_instruction/en_read_i" type="logic">
+      <obj_property name="ElementShortName">en_read_i</obj_property>
+      <obj_property name="ObjectShortName">en_read_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruccion_fetch/mem_instruction/addr_i" type="array">
+      <obj_property name="ElementShortName">addr_i[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_i[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruccion_fetch/mem_instruction/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruccion_fetch/pc_src_i" type="array">
+      <obj_property name="ElementShortName">pc_src_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_src_i[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruccion_fetch/addr_register_i" type="array">
+      <obj_property name="ElementShortName">addr_register_i[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_register_i[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruccion_fetch/addr_branch_i" type="array">
+      <obj_property name="ElementShortName">addr_branch_i[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_branch_i[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruccion_fetch/addr_jump_i" type="array">
+      <obj_property name="ElementShortName">addr_jump_i[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_jump_i[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruccion_fetch/jump_or_branch_i" type="logic">
+      <obj_property name="ElementShortName">jump_or_branch_i</obj_property>
+      <obj_property name="ObjectShortName">jump_or_branch_i</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_ID_EX/enable_pipe_i" type="logic">
+      <obj_property name="ElementShortName">enable_pipe_i</obj_property>
+      <obj_property name="ObjectShortName">enable_pipe_i</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_IF_ID/instruction_o" type="array">
+      <obj_property name="ElementShortName">instruction_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_o[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#800000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_IF_ID/pc_o" type="array">
+      <obj_property name="ElementShortName">pc_o[6:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_o[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#800000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/alu/Op" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Op[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">Cod_Op</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/alu/A" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      <obj_property name="label">datoA</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/alu/B" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      <obj_property name="label">datoB</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/alu/result_o" type="array">
+      <obj_property name="ElementShortName">result_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_o[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/pc_i" type="array">
+      <obj_property name="ElementShortName">pc_i[6:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_i[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/rs_o" type="array">
+      <obj_property name="ElementShortName">rs_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_o[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/rt_o" type="array">
+      <obj_property name="ElementShortName">rt_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt_o[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/rd_o" type="array">
+      <obj_property name="ElementShortName">rd_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_o[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/hazard_detection/ID_EX_mem_read_i" type="logic">
+      <obj_property name="ElementShortName">ID_EX_mem_read_i</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_mem_read_i</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/hazard_detection/EX_reg_write_i" type="logic">
+      <obj_property name="ElementShortName">EX_reg_write_i</obj_property>
+      <obj_property name="ObjectShortName">EX_reg_write_i</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/hazard_detection/ID_rs_i" type="array">
+      <obj_property name="ElementShortName">ID_rs_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_rs_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/hazard_detection/ID_rt_i" type="array">
+      <obj_property name="ElementShortName">ID_rt_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_rt_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/hazard_detection/EX_write_register_i" type="array">
+      <obj_property name="ElementShortName">EX_write_register_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_write_register_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/hazard_detection/EX_rt_i" type="array">
+      <obj_property name="ElementShortName">EX_rt_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_rt_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/hazard_detection/stall_o" type="logic">
+      <obj_property name="ElementShortName">stall_o</obj_property>
+      <obj_property name="ObjectShortName">stall_o</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_ID_EX/data_ra_o" type="array">
+      <obj_property name="ElementShortName">data_ra_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ra_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_ID_EX/data_rb_o" type="array">
+      <obj_property name="ElementShortName">data_rb_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rb_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_ID_EX/rs_o" type="array">
+      <obj_property name="ElementShortName">rs_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_o[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_ID_EX/rt_o" type="array">
+      <obj_property name="ElementShortName">rt_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt_o[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_ID_EX/rd_o" type="array">
+      <obj_property name="ElementShortName">rd_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_o[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/unit_forward/ID_EX_rs_i" type="array">
+      <obj_property name="ElementShortName">ID_EX_rs_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_rs_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/unit_forward/ID_EX_rt_i" type="array">
+      <obj_property name="ElementShortName">ID_EX_rt_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_rt_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/unit_forward/EX_MEM_write_reg_i" type="array">
+      <obj_property name="ElementShortName">EX_MEM_write_reg_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_write_reg_i[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/unit_forward/MEM_WB_write_reg_i" type="array">
+      <obj_property name="ElementShortName">MEM_WB_write_reg_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_write_reg_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/unit_forward/EX_MEM_reg_write_i" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_reg_write_i</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_reg_write_i</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/unit_forward/MEM_WB_reg_write_i" type="logic">
+      <obj_property name="ElementShortName">MEM_WB_reg_write_i</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_reg_write_i</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/unit_forward/forward_A_o" type="array">
+      <obj_property name="ElementShortName">forward_A_o[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_A_o[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/unit_forward/forward_B_o" type="array">
+      <obj_property name="ElementShortName">forward_B_o[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_B_o[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/addr_ra_i" type="array">
+      <obj_property name="ElementShortName">addr_ra_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_ra_i[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/addr_rb_i" type="array">
+      <obj_property name="ElementShortName">addr_rb_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rb_i[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/addr_rw_i" type="array">
+      <obj_property name="ElementShortName">addr_rw_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rw_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/data_rw_i" type="array">
+      <obj_property name="ElementShortName">data_rw_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rw_i[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_ID_EX/data_ra_o" type="array">
+      <obj_property name="ElementShortName">data_ra_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ra_o[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_ID_EX/data_rb_o" type="array">
+      <obj_property name="ElementShortName">data_rb_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rb_o[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/branch_forward_unit/ID_rs_i" type="array">
+      <obj_property name="ElementShortName">ID_rs_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_rs_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/branch_forward_unit/ID_rt_i" type="array">
+      <obj_property name="ElementShortName">ID_rt_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_rt_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/branch_forward_unit/EX_MEM_write_reg_i" type="array">
+      <obj_property name="ElementShortName">EX_MEM_write_reg_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_write_reg_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/branch_forward_unit/EX_MEM_reg_write_i" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_reg_write_i</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_reg_write_i</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/branch_forward_unit/forward_A_o" type="logic">
+      <obj_property name="ElementShortName">forward_A_o</obj_property>
+      <obj_property name="ObjectShortName">forward_A_o</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/branch_forward_unit/forward_B_o" type="logic">
+      <obj_property name="ElementShortName">forward_B_o</obj_property>
+      <obj_property name="ObjectShortName">forward_B_o</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/unit_branch/data_ra_i" type="array">
+      <obj_property name="ElementShortName">data_ra_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ra_i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/unit_branch/data_rb_i" type="array">
+      <obj_property name="ElementShortName">data_rb_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rb_i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/unit_branch/is_equal_o" type="logic">
+      <obj_property name="ElementShortName">is_equal_o</obj_property>
+      <obj_property name="ObjectShortName">is_equal_o</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/data_forward_EX_MEM_i" type="array">
+      <obj_property name="ElementShortName">data_forward_EX_MEM_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_forward_EX_MEM_i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/debug_unit/halt_i" type="logic">
+      <obj_property name="ElementShortName">halt_i</obj_property>
+      <obj_property name="ObjectShortName">halt_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/debug_unit/data_send_pc_i" type="array">
+      <obj_property name="ElementShortName">data_send_pc_i[6:0]</obj_property>
+      <obj_property name="ObjectShortName">data_send_pc_i[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/debug_unit/count_cycles_i" type="array">
+      <obj_property name="ElementShortName">count_cycles_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_cycles_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/debug_unit/data_reg_debug_unit_i" type="array">
+      <obj_property name="ElementShortName">data_reg_debug_unit_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_reg_debug_unit_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/debug_unit/data_mem_debug_unit_i" type="array">
+      <obj_property name="ElementShortName">data_mem_debug_unit_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem_debug_unit_i[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/uart_aux/rx_empty_o" type="logic">
+      <obj_property name="ElementShortName">rx_empty_o</obj_property>
+      <obj_property name="ObjectShortName">rx_empty_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/debug_unit/halt_i" type="logic">
+      <obj_property name="ElementShortName">halt_i</obj_property>
+      <obj_property name="ObjectShortName">halt_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/debug_unit/state" type="array">
+      <obj_property name="ElementShortName">state[11:0]</obj_property>
+      <obj_property name="ObjectShortName">state[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/debug_unit/data_send" type="array">
+      <obj_property name="ElementShortName">data_send[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_send[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/debug_unit/addr_mem_debug_unit_reg" type="array">
+      <obj_property name="ElementShortName">addr_mem_debug_unit_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_mem_debug_unit_reg[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/clock_i" type="logic">
+      <obj_property name="ElementShortName">clock_i</obj_property>
+      <obj_property name="ObjectShortName">clock_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/addr_rw_i" type="array">
+      <obj_property name="ElementShortName">addr_rw_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rw_i[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/addr_ra_i" type="array">
+      <obj_property name="ElementShortName">addr_ra_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_ra_i[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/addr_rb_i" type="array">
+      <obj_property name="ElementShortName">addr_rb_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rb_i[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/data_rw_i" type="array">
+      <obj_property name="ElementShortName">data_rw_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rw_i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/rw_i" type="logic">
+      <obj_property name="ElementShortName">rw_i</obj_property>
+      <obj_property name="ObjectShortName">rw_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/data_ra_o" type="array">
+      <obj_property name="ElementShortName">data_ra_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ra_o[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/instruction_decode/banco_registros/data_rb_o" type="array">
+      <obj_property name="ElementShortName">data_rb_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rb_o[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/alu/Op" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Op[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">Cod_Op</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/alu/A" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      <obj_property name="label">datoA</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/alu/B" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      <obj_property name="label">datoB</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/execute_instruction/alu/result_o" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">result_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_o[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">alu_result</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/stage_write_back/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/reg_EX_MEM/write_register_o" type="array">
+      <obj_property name="ElementShortName">write_register_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_register_o[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/processor/stage_memory/memory_data/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/debug_unit/uart/tx/tx_data_in" type="array">
+      <obj_property name="ElementShortName">tx_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_in[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

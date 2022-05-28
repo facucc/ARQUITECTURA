@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_TOP_time_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_TOP" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1305000001fs"></ZoomEndTime>
+      <Cursor1Time time="1468000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="159"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wave_markers>
+      <marker time="416000000" label="" />
+      <marker time="875000000" label="" />
+      <marker time="1337000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_TOP/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/uart_aux/tx/tx_data_in" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">tx_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_in[7:0]</obj_property>
+      <obj_property name="label">Tx2_data_in</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/uart_aux/tx_data_o" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">tx_data_o</obj_property>
+      <obj_property name="ObjectShortName">tx_data_o</obj_property>
+      <obj_property name="label">Tx2_data_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/rx_data_i" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rx_data_i</obj_property>
+      <obj_property name="ObjectShortName">rx_data_i</obj_property>
+      <obj_property name="label">Rx1_data_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/uart_aux/tx/count_bit" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">count_bit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count_bit[3:0]</obj_property>
+      <obj_property name="label">Tx2_count_bit</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/uart/rx/count_bit_reg" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">count_bit_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count_bit_reg[3:0]</obj_property>
+      <obj_property name="label">Rx1_count_bit</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/uart/Q" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      <obj_property name="label">Rx1_data_o</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/uart/tx/state" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Tx1_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/uart/tx/\shift_reg_reg[7]_0 [0]" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">Tx1_start</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/uart/tx/count_bit_reg" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">count_bit_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count_bit_reg[3:0]</obj_property>
+      <obj_property name="label">Tx1_count_bit</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/interfaceALU/\alu/salida " type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">\alu/salida [7:0]</obj_property>
+      <obj_property name="ObjectShortName">\alu/salida [7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">result_alu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/uart/D" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D[7:0]</obj_property>
+      <obj_property name="label">Result_Alu_Uart</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/uart/tx/D" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D[7:0]</obj_property>
+      <obj_property name="label">Tx1_data_i</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/test_TOP/uart/tx_data_o_OBUF" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">tx_data_o_OBUF</obj_property>
+      <obj_property name="ObjectShortName">tx_data_o_OBUF</obj_property>
+      <obj_property name="label">Tx1_data_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/uart_aux/rx_data_i" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rx_data_i</obj_property>
+      <obj_property name="ObjectShortName">rx_data_i</obj_property>
+      <obj_property name="label">Rx2_data_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/uart_aux/rx/state" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Rx2_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/uart_aux/rx/data_o" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Rx2_data_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/uart_aux/rx/shift_reg" type="array">
+      <obj_property name="ElementShortName">shift_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_reg[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/uart_aux/rx/count_bit" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">count_bit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count_bit[3:0]</obj_property>
+      <obj_property name="label">Rx2_count_bit</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/uart_aux/data_o" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[7:0]</obj_property>
+      <obj_property name="label">UART2_data_o[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TOP/uart_aux/rx/rx_done_tick" type="logic">
+      <obj_property name="ElementShortName">rx_done_tick</obj_property>
+      <obj_property name="ObjectShortName">rx_done_tick</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
